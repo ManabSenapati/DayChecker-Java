@@ -1,0 +1,42 @@
+//This program created by ManabJB
+
+import java.util.*;
+
+class Daychecker 
+{
+	public static void main(String args[])
+	{
+		System.out.println("DayChecker copyright by ManabJB");
+		System.out.println("Please type a number 1-7 to check day: ");
+		Scanner input = new Scanner(System.in);
+		int Day;
+		Day = input.nextInt();
+		switch(Day)
+		{
+			case 1:
+				System.out.println("\nSun Day");
+			break;
+			case 2:
+				System.out.println("\nMon day");
+			break;
+			case 3:
+				System.out.println("\nTuse Day");
+			break;
+			case 4:
+				System.out.println("\nWednes Day");
+			break;
+			case 5:
+				System.out.println("\nThurs Day");
+			break;
+			case 6:
+				System.out.println("\nFri Day");
+			break;
+			case 7:
+				System.out.println("\nSatur Day");
+			break;
+			//Default output
+			default:
+			System.out.println("\nThis program created by ManabJB");
+		}
+	}
+}
